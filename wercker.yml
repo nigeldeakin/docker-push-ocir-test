@@ -6,8 +6,8 @@ build:
       code: | 
         echo "do something"
     - internal/docker-push:
-      username: $REPO_USERNAME
-      password: $REPO_PASSWORD
+      username: $USERNAME
+      password: $PASSWORD
+      tag: my-amazing-tag
+      repository: $USERNAME/my-repository
       registry: https://iad.ocir.io/v2/
-      repository: odx-pipelines/wercker-ocir-test/dam-ocir-test
-      tag: latest
