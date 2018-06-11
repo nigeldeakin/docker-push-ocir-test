@@ -9,5 +9,5 @@ build:
       username: $REPO_USERNAME
       password: $REPO_PASSWORD
       registry: https://iad.ocir.io/v2/
-      repository: odx-pipelines/wercker-ocir-test/ndeakin-ocir-test
+      repository: odx-pipelines/wercker-ocir-test/dam-ocir-test
       tag: latest
